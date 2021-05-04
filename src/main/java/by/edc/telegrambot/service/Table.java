@@ -88,7 +88,7 @@ public class Table {
 if (workDay) {
     return "Ищу расписание для группы " + tableModel.getName() + " на завтра, учебная неделя №" + currentWeek + "\n"
             + tableModel.getStudentGroupInformation() + "\n" + result;
-} else return "У группы " + tableModel.getName() + " завтра нет пар.";
+} else return "У группы " + message + " завтра нет пар.";
 
 
     }
